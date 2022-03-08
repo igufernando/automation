@@ -23,7 +23,7 @@ parameters:
     allowedPattern: '^e-[a-z0-9]*$'
   SizeMin:
     type: String
-    description: (Required) The number os minimum instances in AWS Elastic Beanstalk environment.
+    description: (Required) The number of minimum instances in AWS Elastic Beanstalk environment.
     allowedPattern: '^[0-9]*$'
 mainSteps:
   - name: SettingAutoScalingGroup
